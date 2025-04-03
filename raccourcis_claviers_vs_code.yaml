@@ -1,0 +1,52 @@
+# Classic shortcuts
+
+## Controlling VS Code
+Go to shortcuts menu: ctrl + k ctrl + s
+Toogle left panel : ctrl + b
+Toogle terminal : ctrl + j
+Go to control Panel: ctrl + shift + p
+Switch from a file to an other one (top down): ctrl + tab
+Switch from a file to an other one (down top): ctrl + maj + tab
+Go to right pane: ctrl + 1 (or ctrl + 2 and so on...) (if you don't have a pane opened, it will create a new one)
+Go to preferences: ctrl + ,
+
+## Editing
+Delete a line : ctrl + shift + k
+
+Select the current expression: cltr + d
+Select all current expressions and place a cursor at the end: ctrl + shift + l
+
+Go to the start of the line: fn + arrow left
+Go to the end of the line: fn + arrow right
+
+Select from cursor to the end of the line: fn + shift + left arrow
+Select from cursor to the start of the line: fn + shift + right arrow
+
+Move line up : alt + arrow up
+Move line down: alt + arrow down
+
+Add a cursor : ctrl + shift + arrow up (or arrow down)
+Expand Selection: shift + alt + left
+
+Comment : ctrl + / (so ctrl + shift + ":"" on french keyboards)
+
+Display doc string: ctrl + k ctrl + i
+
+
+## Classic but we might need to tweak them:
+Go to the Explorer:
+  - shortcut: ctrl + shift + e
+  - tweak: On Linux, it might not work. In that case check ibus-setup in the terminal and remove shortcut associated to emoji.
+Select the entire line:
+  - shortcut: ctrl + l
+  - tweak: For ipynb, first go to shortcuts and remove the ctrl + l associated with notebook.centerActiveCell
+
+# Virgile's custom Jupyter Notebooks shortcuts (You need to go to the shortcut menu and add them manually)
+
+Restart kernel and run all above selected cell : ctrl + maj + 0
+Interrupt Kernel: ctrl + i ctrl + i
+
+###### (Inserting a line below or above is usually ctrl + enter and ctrl + shift + enter.)
+###### (But this doesn't work with ipynb, so I changed it to "ctrl + *", because it's a key which is next to the "enter" key.)
+Inserting a line below: ctrl + *
+Inserting a line above: ctrl + maj + *
