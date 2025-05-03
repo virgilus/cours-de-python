@@ -9,6 +9,8 @@ Switch from a file to an other one (top down): ctrl + tab
 Switch from a file to an other one (down top): ctrl + maj + tab
 Go to right pane: ctrl + 1 (or ctrl + 2 and so on...) (if you don't have a pane opened, it will create a new one)
 Go to preferences: ctrl + ,
+Enter Zen mode: ctrl + k z
+Go to files: ctrl + e or ctrl + p
 
 ## Editing
 Delete a line : ctrl + shift + k
@@ -16,14 +18,15 @@ Delete a line : ctrl + shift + k
 Select the current expression: cltr + d
 Select all current expressions and place a cursor at the end: ctrl + shift + l
 
-Go to the start of the line: fn + arrow left
-Go to the end of the line: fn + arrow right
+Go to the start of the line: fn + arrow left (doesn't work with all keyboard configurations)
+Go to the end of the line: fn + arrow right (doesn't work with all keyboard configurations)
 
 Select from cursor to the end of the line: fn + shift + left arrow
 Select from cursor to the start of the line: fn + shift + right arrow
 
 Move line up : alt + arrow up
 Move line down: alt + arrow down
+Duplicate a line: ctrl + c ctrl + v (with the cursor at the start of a line)
 
 Add a cursor : ctrl + shift + arrow up (or arrow down)
 Expand Selection: shift + alt + left
@@ -43,10 +46,29 @@ Select the entire line:
 
 # Virgile's custom Jupyter Notebooks shortcuts (You need to go to the shortcut menu and add them manually)
 
+## Kernel shortcuts
+
 Restart kernel and run all above selected cell : ctrl + maj + 0
 Interrupt Kernel: ctrl + i ctrl + i
 
-###### (Inserting a line below or above is usually ctrl + enter and ctrl + shift + enter.)
-###### (But this doesn't work with ipynb, so I changed it to "ctrl + *", because it's a key which is next to the "enter" key.)
+## Inserting lines
+
+### (Inserting a line below or above is usually ctrl + enter and ctrl + shift + enter.)
+### (But this doesn't work with ipynb, so I changed it to "ctrl + *", because it's a key which is next to the "enter" key.)
 Inserting a line below: ctrl + *
 Inserting a line above: ctrl + maj + *
+
+# Custom shortcuts for extensions
+## Data Wrangler
+Data Wrangler View data: ctrl + ù
+
+# Split view
+## It opens the current file in a new pane.
+View Split Editor Right: ctrl + )
+
+
+# Shortcuts replaced with... nothing!
+
+### I close too many times VS Code by mistake.
+### Also, there's already a shortcut to close the current program depending on the OS.
+Close VS Code: ""

@@ -1,0 +1,48 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+0",
+        "command": "jupyter.restartkernelandrunuptoselectedcell"
+    },
+    {
+        "key": "ctrl+i ctrl+i",
+        "command": "jupyter.interruptkernel"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-notebook.centerActiveCell",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+[Backslash]",
+        "command": "editor.action.insertLineBefore",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-editor.action.insertLineBefore",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+[Backslash]",
+        "command": "editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "ctrl+[Quote]",
+        "command": "dataWrangler.openNotebookVariable"
+    },
+    {
+        "key": "ctrl+[Minus]",
+        "command": "workbench.action.splitEditorRight"
+    }
+]
