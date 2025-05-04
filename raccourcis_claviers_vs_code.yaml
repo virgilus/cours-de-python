@@ -35,6 +35,11 @@ Comment : ctrl + / (so ctrl + shift + ":"" on french keyboards)
 
 Display doc string: ctrl + k ctrl + i
 
+## Only in Notebooks
+
+Run cell: ctrl + enter
+Run cell and go to next cell: ctrl + shift + enter
+Notebook Clear Cell Outputs: alt + delete
 
 ## Classic but we might need to tweak them:
 Go to the Explorer:
@@ -44,7 +49,9 @@ Select the entire line:
   - shortcut: ctrl + l
   - tweak: For ipynb, first go to shortcuts and remove the ctrl + l associated with notebook.centerActiveCell
 
-# Virgile's custom Jupyter Notebooks shortcuts (You need to go to the shortcut menu and add them manually)
+# Virgile's custom shortcuts
+### (You need to go to the shortcut menu and add them manually)
+### (or copy paste the file keybindings.json in the folder ~/.config/Code/User/)
 
 ## Kernel shortcuts
 
