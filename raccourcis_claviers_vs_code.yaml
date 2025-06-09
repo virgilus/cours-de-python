@@ -79,3 +79,10 @@ View Split Editor Right: ctrl + )
 ### I close too many times VS Code by mistake.
 ### Also, there's already a shortcut to close the current program depending on the OS.
 Close VS Code: ""
+
+### For copilot I remove the original binding which is ctrl + alt + i
+Show copilot (something like that): ""
+### And I replaced it with:
+Chat focus on chat view: ctrl + alt + i
+### And to hide the chat view, I use the same shortcut as the one to hide the secondary panel:
+View Toggle Secondary Side Bar Visibility: ctrl + alt + b
