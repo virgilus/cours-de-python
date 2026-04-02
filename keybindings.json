@@ -53,5 +53,33 @@
         "key": "ctrl+alt+i",
         "command": "-workbench.panel.chat",
         "when": "workbench.panel.chat.view.copilot.active"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-workbench.action.terminal.chat.runCommand",
+        "when": "chatIsEnabled && terminalChatResponseContainsCodeBlock && terminalHasBeenCreated && !terminalChatActiveRequest && !terminalChatResponseContainsMultipleCodeBlocks || chatIsEnabled && terminalChatResponseContainsCodeBlock && terminalProcessSupported && !terminalChatActiveRequest && !terminalChatResponseContainsMultipleCodeBlocks"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-workbench.action.terminal.chat.runFirstCommand",
+        "when": "chatIsEnabled && terminalChatResponseContainsMultipleCodeBlocks && terminalHasBeenCreated && !terminalChatActiveRequest || chatIsEnabled && terminalChatResponseContainsMultipleCodeBlocks && terminalProcessSupported && !terminalChatActiveRequest"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-workbench.action.chat.applyInEditor",
+        "when": "accessibleViewInCodeBlock && chatIsEnabled || chatIsEnabled && inChat && !inChatInput"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "workbench.action.maximizeAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+alt+[KeyM]",
+        "command": "workbench.action.restoreAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-dataWrangler.revealNL2CodeWidget",
+        "when": "dataWrangler.canRevealNL2CodeWidget && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
     }
 ]

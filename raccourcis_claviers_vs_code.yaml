@@ -73,6 +73,8 @@ Data Wrangler View data: ctrl + ù
 ## It opens the current file in a new pane.
 View Split Editor Right: ctrl + )
 
+# Copiltot Chat View
+# Maximize auxiliary bar (for chat view)
 
 # Shortcuts replaced with... nothing!
 
@@ -86,3 +88,9 @@ Show copilot (something like that): ""
 Chat focus on chat view: ctrl + alt + i
 ### And to hide the chat view, I use the same shortcut as the one to hide the secondary panel:
 View Toggle Secondary Side Bar Visibility: ctrl + alt + b
+Maximize auxiliary bar (for chat view): ctrl + alt + n
+Restore auxiliary bar (for chat view): ctrl + alt + ,
+
+# Extension
+### The extension "Jupyter Keymap" and "Jupyter Cell tag" will be very useful.
+### But at the moment VS Code doesn't support the "raw" shortcut --> An extension named "Jupytexte Sync" fixes that.
